@@ -1,0 +1,87 @@
+/* overwrite .login-pf again */
+.login-pf {
+    background: none;
+}
+
+.login-pf body {
+    background: #fafafa;
+    background-size: cover;
+    height: 100%;
+}
+.login-pf-header {
+  display:none !important;
+}
+
+.pf-c-form-control {
+    border-width: 0 0 1px 0;
+    background: none;
+}
+
+.pf-c-form-control:hover, .pf-c-form-control:focus, .pf-c-form-control:focus-visible {
+    border-bottom-color: #00adef;
+    border-bottom-width: 2px;
+    outline: none;
+}
+
+.pf-m-primary {
+    color: #fff;
+    background:none;
+}
+.pf-c-button.pf-m-primary {
+    background: #00adef;
+    border-radius: 3px;
+    line-height: 1.5rem;
+    box-shadow: 0 0 3px #33333399;
+  }
+input[type="submit"]:disabled {
+    color: #ffff;
+}
+
+.pf-c-button.pf-m-primary:hover, .pf-c-button.pf-m-primary:focus-visible {
+    color: #ffff;
+    background-color: rgb(0, 121, 167);
+    outline: none;
+}
+
+#kc-header {
+    overflow: visible;
+    white-space: nowrap;
+    margin: 0;
+}
+#kc-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+    background: url("../img/logo.png") no-repeat center center fixed;
+}
+
+#kc-header-wrapper {
+    color: rgb(114, 114, 113);
+    font-size: 2.2rem;
+    font-weight: normal;
+    padding: 0;
+}
+
+.login-pf-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card-pf {
+    margin: 0 auto;
+    padding: 0 !important;
+    box-shadow: none;
+    background: none;
+    max-width: 500px;
+    border:none;
+}
+
