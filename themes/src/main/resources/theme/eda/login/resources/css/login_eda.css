@@ -49,10 +49,10 @@ input[type="submit"]:disabled {
     margin: 0;
 }
 #kc-logo {
-    width: 60px;
+    min-width: 60px;
     height: 60px;
     margin-bottom: 5px;
-    background: url("../img/logo.png") no-repeat center center fixed;
+    background: url("../img/logo.png") no-repeat center center;
 }
 
 #kc-header-wrapper {
@@ -77,11 +77,11 @@ input[type="submit"]:disabled {
 }
 
 .card-pf {
+    width: 300px;
     margin: 0 auto;
     padding: 0 !important;
     box-shadow: none;
     background: none;
-    max-width: 500px;
     border:none;
 }
 
