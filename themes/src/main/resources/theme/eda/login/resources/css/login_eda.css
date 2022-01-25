@@ -32,7 +32,15 @@
     border-radius: 3px;
     line-height: 1.5rem;
     box-shadow: 0 0 3px #33333399;
-  }
+}
+.pf-c-button.btn-default {
+    background: #fff;
+    border-radius: 3px;
+    color: #777;
+    line-height: 1.5rem;
+    box-shadow: 0 0 3px #33333333;
+}
+
 input[type="submit"]:disabled {
     color: #ffff;
 }
@@ -43,16 +51,22 @@ input[type="submit"]:disabled {
     outline: none;
 }
 
+.pf-c-button.btn-default:hover, .pf-c-button.btn-default:focus-visible {
+    color: #777;
+    background-color: #efefef;
+    outline: none;
+}
+
 #kc-header {
     overflow: visible;
     white-space: nowrap;
     margin: 0;
 }
 #kc-logo {
-    width: 60px;
+    min-width: 60px;
     height: 60px;
     margin-bottom: 5px;
-    background: url("../img/logo.png") no-repeat center center fixed;
+    background: url("../img/logo.png") no-repeat center center;
 }
 
 #kc-header-wrapper {
@@ -77,11 +91,17 @@ input[type="submit"]:disabled {
 }
 
 .card-pf {
+    width: 300px;
     margin: 0 auto;
     padding: 0 !important;
     box-shadow: none;
     background: none;
-    max-width: 500px;
     border:none;
+}
+
+#kc-form-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
 
